@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/NEYouFan/ht-refreshview-ios.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/NEYouFan/ht-htsplashadview-ios", :tag => s.version.to_s }
 
-  s.source_files  = "HTSplashADView/HTSplashADView/source/*.{h,m}"
+  s.source_files  = "sources/*.{h,m}"
 
 end
