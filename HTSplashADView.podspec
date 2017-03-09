@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HTSplashADView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "网易标准化控件库之 HTSplashADView."
 
   s.description  = <<-DESC

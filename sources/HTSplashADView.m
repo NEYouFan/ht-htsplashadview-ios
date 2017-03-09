@@ -56,7 +56,7 @@
 
 - (NSTimer *)countTimer{
     if (!_countTimer) {
-        _countTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(countdownTime) userInfo:nil repeats:YES];
+        _countTimer = [NSTimer timerWithTimeInterval:1.0 target:self selector:@selector(countdownTime) userInfo:nil repeats:YES];
     }
     return _countTimer;
 }
