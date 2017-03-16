@@ -64,7 +64,7 @@
 - (void)show
 {
     if ([HTSplashADManager sharedInstance].getSplashData == nil) {
-        [self removeFromSuperview];
+        [self dismiss:NO];
         return;
     }
     [self startTimer];
